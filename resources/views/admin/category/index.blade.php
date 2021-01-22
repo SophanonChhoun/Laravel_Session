@@ -2,7 +2,7 @@
 
 @section("content")
     <div class="container-fluid">
-        <button class="btn btn-primary"><a href="/admin/customer/create" style="color: white" class="text-white text-decoration-none mb-5">Add new Customer</a></button>
+        <button class="btn btn-primary"><a href="/admin/category/create" style="color: white" class="text-white text-decoration-none mb-5">Add new Customer</a></button>
         <hr>
         <table class="table table-responsive">
                 <tr>

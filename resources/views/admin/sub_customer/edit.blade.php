@@ -2,7 +2,7 @@
 
 @section("content")
     <div class="container" >
-        <form action="/admin/customer/update" method="POST">
+        <form action="/admin/subcategory/update" method="POST">
             @include("admin.customer.form")
         </form>
         @if(session("success"))

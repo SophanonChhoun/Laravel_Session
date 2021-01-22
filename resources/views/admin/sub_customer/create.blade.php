@@ -1,8 +1,8 @@
 @extends("layouts.index")
 
 @section("content")
-    <div class="container" >
-        <form action="/admin/customer/update" method="POST">
+    <div class="container" id="CreateCustomer">
+        <form action="/admin/subcategory/store" method="POST">
             @include("admin.customer.form")
         </form>
         @if(session("success"))
@@ -10,3 +10,4 @@
         @endif
     </div>
 @endsection
+
